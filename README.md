@@ -14,7 +14,7 @@ Once you have cloned the repository, you can open the `index.html` file in your 
 
 ## How to Use
 
-To use Lost in Translation, simply enter the text you want to translate into the input field and select the target language from the dropdown menu. Then click on the "Translate" button to get the translation.
+To use Lost in Translation, simply enter the text you want to translate into the input field and click on the "Translate" button to get the translation.
 
 The application uses external APIs to translate the text, so an internet connection is required.
 
