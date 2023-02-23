@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: 0;
+}
+
+/* Custom styling */
+body{
+    background: #f4bfc5;
+}
+.header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #ae523a;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+.header *{
+    color: #FFF;
+}
+.header > *{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > nav{
+    flex: 2;
+}
+.menu{
+    display: flex;
+}
+.menu-item{
+    margin: 0 10px;
+}
+.title{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+    border: 3px solid #ae523a;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.main > div{
+    padding: 20px;
+}
+.main > .header-bar{
+    background: #e08586;
+    color: #FFF;
+    font-size: 22px;
+}
+.main > .content input{
+    width: 97%;
+    padding: 10px;
+    border: none;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.main > .content button{
+    font-size: 18px;
+    border: 1px solid #ae523a !important;
+    color: #fff;
+    background: #ae523a;
+    padding: 10px 20px;
+    margin-top: -20px;
+    transition: .5s;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.main > .content button:hover{
+    color: #ae523a;
+    background: transparent;
+}
+.main > .content .login-button{
+    font-size: 50px;
+    border: 0 !important;
+    background: transparent;
+    padding: 0;
+    margin-top: -20px;
+}
+.translation{
+    background: #FFF;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.translation > img{
+    height: 85px;
+    width: 85px;
+    object-fit: contain;
+}
+.clear-button{
+    margin-top: 0 !important;
+}
+.requested-translations{
+    padding: 20px;
+    background: #FFF;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.content h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.logout-button{
+    font-size: 18px;
+    background: #e08586;
+    color: #FFF;
+    padding: 10px 20px;
+    border: #e08586 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    cursor:pointer;
+}
