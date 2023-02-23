@@ -1,6 +1,6 @@
 # Lost in Translation
 
-Lost in Translation is a web application that translates text to different languages using external APIs.
+Lost in Translation is a web application that translates text to sign language using external APIs.
 
 ## Getting Started
 
@@ -17,6 +17,10 @@ Once you have cloned the repository, you can open the `index.html` file in your 
 To use Lost in Translation, simply enter the text you want to translate into the input field and select the target language from the dropdown menu. Then click on the "Translate" button to get the translation.
 
 The application uses external APIs to translate the text, so an internet connection is required.
+
+## Live Demo
+
+https://lovely-mooncake-d0efb5.netlify.app/
 
 ## Built With
 
