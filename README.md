@@ -8,7 +8,6 @@ To get started with Lost in Translation, you will need to clone this repository 
 
 git clone https://gitlab.com/noroffassignments/assignment-5-lost-in-translation.git
 
-vbnet
 Copy code
 
 Once you have cloned the repository, you can open the `index.html` file in your web browser to start using the application.
